@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SchoolPay",
+    "slug": "SchoolPay",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5257f2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#5257f2"
+      },
+      "package": "com.sebastiannarvaez.SchoolPay"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
